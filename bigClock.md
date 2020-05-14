@@ -46,11 +46,7 @@
 
 ![Add wire chanel](https://github.com/tolikivanov/photo/raw/master/Wire-chanel.jpg)
 
-Для сегмента будущего индикатора отрезал 10 см отрезок светодиодной ленты.
-
-![Cut led strip](https://github.com/tolikivanov/photo/raw/master/led-strip.gif)
-
-К ниму припаял пару проводов. 
+Для сегмента будущего индикатора отрезал 10 см отрезок светодиодной ленты и припаял к нему пару проводов. 
 
 ![Add wire](https://github.com/tolikivanov/photo/raw/master/led-wire-700.jpg)
 
