@@ -44,7 +44,7 @@
 
 На одну из сторон, теперь она будет тыльной, приклеил дополнительные "прямоугольнички" вырезанные из того же картона вдоль рёбер жесткости. Сквозь них пропущу провода.
 
-![Add wire chanel](https://github.com/tolikivanov/photo/raw/master/Wire-chanel.jpg)
+![Add wire chanel](https://github.com/tolikivanov/photo/raw/master/Wire-chanel-700.jpg)
 
 Для сегмента будущего индикатора отрезал 10 см отрезок светодиодной ленты и припаял к нему пару проводов. 
 
