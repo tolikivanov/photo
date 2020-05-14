@@ -61,4 +61,4 @@
 ![Join-cylinder](https://github.com/tolikivanov/photo/raw/master/join-cylinder.jpg)
 
 После того, как все цилиндры приклеены, можно заняться кабель-менеджментом и спрятать все провода внутрь заранее подготовленных каналов.
-
+![Cable-management](https://github.com/tolikivanov/photo/raw/master/cable-management.gif)
