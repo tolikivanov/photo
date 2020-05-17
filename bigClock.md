@@ -118,7 +118,7 @@
 
 Для подключения модулей к Ардуино удобно использовать тройка шилд. С ним всё можно соединить с помощью трехпроводных шлейфов, как конструктор.
 
-## Исходный код
+## Прошивка
 Программировать контроллер будем через [Arduino IDE](http://wiki.amperka.ru/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-arduino-ide).
 Для работы с Octofet-ом и часами реального времени дополнительно скачал и установил пару библиотек. 
 
@@ -126,3 +126,32 @@
   - [Библиотека TroykaRTC](https://github.com/amperka/TroykaRTC)
   - [Как устанавливать библиотеки в Arduino IDE](http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5:%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8#%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8)
 
+### Исходный код
+```cpp
+// Ignore this for now. The definition is required by XOD but we
+// not use it for cos
+struct State { };
+
+// This is an obligatory marker. XOD will put pin definitions there
+\{{ GENERATED_CODE }}
+
+// The `evaluate` function is the node’s entry point. It is the only
+// function XOD requires to implement. The context parameter is a
+// black-box object you’ll pass to various API functions.
+void evaluate(Context ctx) {
+    // `getValue` function reads a pin. In angle brackets, it takes a
+    // name of the pin in form input_PINLABEL (input_RAD in our case)
+    Number x = getValue<input_RAD>(ctx);
+
+    // Next, we use regular C++ to perform some actions. Our case is trivial.
+    // All we have to do is to call the standard C++ cos function.
+    // Note the data type `Number`. It’s the type XOD uses to represent numbers
+    // on the current platform.
+    Number result = cos(x);
+
+    // `emitValue` is like `getValue`, but it writes values rather than read.
+    // Note we use `OUT` label to access our unlabeled output terminal.
+    // `OUT` is the default name when you omit the label.
+    emitValue<output_OUT>(ctx, result);
+}
+```
