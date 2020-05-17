@@ -107,13 +107,7 @@
 
 ![Connect digit to Octofet](https://github.com/tolikivanov/photo/raw/master/Connection.png)
 
-Управляя работой транзисторов в сборке- на индикаторе будут отображаться необходимые цифры. 
-
-Состояния каждого ключа будем хранить в массиве байтов
-
-![Bitmap](https://github.com/tolikivanov/photo/raw/master/bitmap.gif)
-
-Блок питания и Ардуино подключил к Octofet-у.
+Добавил блок питания и Ардуино.
 
 -- Схема подключения --
 
@@ -129,6 +123,10 @@
   - [Библиотека Octofet](https://github.com/amperka/AmperkaFet)
   - [Библиотека TroykaRTC](https://github.com/amperka/TroykaRTC)
   - [Как устанавливать библиотеки в Arduino IDE](http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5:%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8#%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8)
+
+В зависимости от состояния транзисторов в сборке - на индикаторе будут отображаться необходимые цифры. 
+
+![Bitmap](https://github.com/tolikivanov/photo/raw/master/bitmap.gif)
 
 Загрузил тестовый пример в Ардуино.
 
