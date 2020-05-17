@@ -129,5 +129,4 @@
 ### Исходный код
 ```cpp
 // Ignore this for now.
-}
 ```
