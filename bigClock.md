@@ -109,7 +109,7 @@
 
 Добавил блок питания и Ардуино.
 
-![Connect Arduino to Octofet](https://github.com/tolikivanov/photo/raw/master/Arduino-Connection.png)
+![Connect Arduino to Octofet](https://github.com/tolikivanov/photo/raw/master/Arduino-Test-Connection.png)
 
 А сам Octofet, чтоб не болтался, закрепил на основании, которое я вырезал из той же картонки.
 
