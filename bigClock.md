@@ -185,7 +185,7 @@ void loop()
 
 Теперь можно соединить оставшиеся индикаторы в одну цепочку, добавить модуль часов реального времени и прошить контроллер прошивкой отображающей текущее время на моих часах.
 
-![vaevaevr](https://github.com/tolikivanov/photo/raw/master/all-connections.png) --
+![Full Schem](https://github.com/tolikivanov/photo/raw/master/fullSchem.png)
 
 ### Исходный код
 ```cpp
