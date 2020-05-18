@@ -107,13 +107,13 @@
 
 ![Connect digit to Octofet](https://github.com/tolikivanov/photo/raw/master/Connection.png)
 
-Добавил блок питания и Ардуино.
-
-![Connect Arduino to Octofet](https://github.com/tolikivanov/photo/raw/master/Arduino-Test-Connection.png)
-
 А сам Octofet, чтоб не болтался, закрепил на основании, которое я вырезал из той же картонки.
 
 ![Connect Octofet to digit](https://github.com/tolikivanov/photo/raw/master/connectOctofet.jpg)
+
+Добавил блок питания и Ардуино.
+
+![Connect Arduino to Octofet](https://github.com/tolikivanov/photo/raw/master/Arduino-Test-Connection.png)
 
 ## Прошивка
 
