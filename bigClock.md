@@ -56,7 +56,7 @@
 
 Теперь приклеим цилиндры к каркасу пропустив провода в отверстия.
 
-![Join-cylinder](https://github.com/tolikivanov/photo/raw/master/join-cylinder.jpg)
+![Join cylinder](https://github.com/tolikivanov/photo/raw/master/join-cylinder.jpg)
 
 После того, как все цилиндры приклеены, можно заняться кабель-менеджментом и спрятать все провода внутрь заранее подготовленных каналов.
 
@@ -64,7 +64,7 @@
 
 Торцы цилинров закрыл заглушками вырезанными всё из того же картона.
 
--- Фото заглушенных цилинров --
+![Add stub](https://github.com/tolikivanov/photo/raw/master/stub.jpg)
 
 Тоже самое осталось провернуть ещё для 3-х цифр. Надеюсь успеть до конца карантина.
 
@@ -113,7 +113,7 @@
 
 А сам Octofet, чтоб не болтался, закрепил на основании, которое я вырезал из той же картонки.
 
--- фото октофета с обратной стороны --
+![Connect Octofet to digit](https://github.com/tolikivanov/photo/raw/master/connectOctofet.jpg)
 
 ## Прошивка
 
@@ -181,7 +181,7 @@ void loop()
 }
 ```
 
--- гифка демонстрация --
+![Single gigit show](https://github.com/tolikivanov/photo/raw/master/singleDigit.gif)
 
 Теперь можно соединить оставшиеся индикаторы в одну цепочку, добавить модуль часов реального времени и прошить контроллер прошивкой отображающей текущее время на моих часах.
 
