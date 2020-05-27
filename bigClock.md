@@ -2,7 +2,7 @@
 
 Светодиодная лента, остатки картонных упаковок из Икеа - отличное "дано" для светодиодного табло.
 
-![Main image](https://github.com/tolikivanov/photo/raw/master/main.jpg)
+![Main image](https://github.com/tolikivanov/photo/raw/master/BigClock.jpg)
 
 Какого табло?
 <cut />
