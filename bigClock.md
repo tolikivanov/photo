@@ -14,21 +14,24 @@
 ## Что для этого понадобится
 ### Материалы:
 -   Картон;
--   Светодиодная лента, 12 В;
+-   [Светодиодная лента, 12 В](https://amperka.ru/product/white-led-strip-sealed?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   Листы бумаги 80 г/м2;
 -   Провода;
--   Контроллер вроде Ардуино;
--   4 х Octofet (сборка из 8-ми MOSFET транзисторов);
--   Блок питания 12В;
+-   [Контроллер Ардуино](https://amperka.ru/product/arduino-uno?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   4 х [Octofet (сборка из 8-ми MOSFET транзисторов)](https://amperka.ru/product/zelo-p-fet?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Модуль часов реального времени](https://amperka.ru/product/troyka-rtc?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Блок питания 12В](https://amperka.ru/product/power-supply-adapter-robiton-tn2000s?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 
 ### Инструменты:
 -   Канцелярский нож;
 -   Ножницы;
--   Кусачки;
+-   [Кусачки](https://amperka.ru/product/side-cutting-pliers?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   Клей-карандаш;
--   Отвертки, шлицевая и крест;
--   Паяльник;
--   Провод USB;
+-   [Отвертки, шлицевая и крест](https://amperka.ru/product/screw-kit?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Паяльник](https://amperka.ru/product/soldering-iron-goot-30w?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Олово](https://amperka.ru/product/solder-08mm-small?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Флюс](https://amperka.ru/product/flux-lti120?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Провод USB](https://amperka.ru/product/usb-cable?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   Линейка;
 -   Карандаш;
 
@@ -36,42 +39,42 @@
 
 Канцелярским ножом вырезаем из картона корпус будущих индикаторов.
 
-![Cut body](https://github.com/tolikivanov/photo/raw/master/ninja-cut.gif)
+![ninja-cut.gif](https://github.com/tolikivanov/photo/raw/master/ninja-cut.gif)
 
 На одну из сторон (теперь она будет тыльной) наклеим вдоль рёбер жёсткости дополнительные "прямоугольнички", вырезанные из того же картона. Сквозь них пустим провода.
 
-![Add wire chanel](https://github.com/tolikivanov/photo/raw/master/Wire-chanel.jpg)
+![Wire-chanel.jpg](https://github.com/tolikivanov/photo/raw/master/Wire-chanel.jpg)
 
 Для подсветки сегмента будущего индикатора хватит 10 сантиметров отрезка светодиодной ленты. Припаяем к нему пару проводов.
 
-![Add wire](https://github.com/tolikivanov/photo/raw/master/led-wire.jpg)
+![led-wire.jpg](https://github.com/tolikivanov/photo/raw/master/led-wire.jpg)
 
 Рассеивателем для ленты станет цилиндр, вырезанный и свёрнутый из обычной офисной бумаги А4 и склеенный клеем-карандашом.
 
-![Make cylinder](https://github.com/tolikivanov/photo/raw/master/cylinder.gif)
+![cylinder.gif](https://github.com/tolikivanov/photo/raw/master/cylinder.gif)
 
 Теперь приклеим цилиндры к каркасу, пропустив провода в отверстия.
 
-![Join cylinder](https://github.com/tolikivanov/photo/raw/master/join-cylinder.jpg)
+![join-cylinder.jpg](https://github.com/tolikivanov/photo/raw/master/join-cylinder.jpg)
 
 После того, как все цилиндры приклеены, можно заняться кабель-менеджментом и спрятать все провода внутрь заранее подготовленных каналов.
 
-![Cable-management](https://github.com/tolikivanov/photo/raw/master/cable-management.gif)
+![cable-management.gif](https://github.com/tolikivanov/photo/raw/master/cable-management.gif)
 
 Торцы цилиндров закроем заглушками, вырезанными всё из того же картона.
 
-![Add stub](https://github.com/tolikivanov/photo/raw/master/stub.jpg)
+![stub.jpg](https://github.com/tolikivanov/photo/raw/master/stub.jpg)
 
 То же самое осталось провернуть ещё для 3-х цифр.
 
 ## Управление
 ### Проблема №1. Ток
 
-Привычными индикаторами, каждый сегмент которых потребляет всего 20-30 мА, можно управлять напрямую контроллером. Например, с входов-выходов популярной Atmega328P можно снять до 40 мА.
+[Привычными индикаторами](https://amperka.ru/product/7-segment-led?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), каждый сегмент которых потребляет всего 20-30 мА, можно управлять напрямую контроллером. Например, с входов-выходов популярной Arduino Uno можно снять до 40 мА.
 
-Для управления светодиодными лентами с большим током между пинами контроллера и каждым сегментом дополнительно придется использовать транзисторы или реле, способные пропустить через себя такой ток.
+Для управления светодиодными лентами с большим током между пинами контроллера и каждым сегментом дополнительно придется использовать [транзисторы](https://amperka.ru/product/troyka-mosfet-p-channel?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) или [реле](https://amperka.ru/product/troyka-mini-relay?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), способные пропустить через себя такой ток.
 
-![Commutation module](https://github.com/tolikivanov/photo/raw/master/commutation.jpg)
+![commutation.jpg](https://github.com/tolikivanov/photo/raw/master/commutation.jpg)
 
 Реле – шумно и громоздко, а вот силовые ключи на MOSFET транзисторах – кажется, то, что нужно.
 
@@ -79,35 +82,35 @@
 
 Чтобы управлять одним индикатором понадобится 7 выходов микроконтроллера. Четыре индикатора и разделитель – это 29, а у Ардуино Уно выходов всего 20.
 
-В готовых индикаторных сборках используют выходные сдвиговые регистры — микросхемы для увеличения количества цифровых выходов. Она управляется тремя пинами, а на выходе даёт целых восемь.
+В [готовых индикаторных сборках](https://amperka.ru/product/troyka-quad-display?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) используют [выходные сдвиговые регистры](https://amperka.ru/product/74hc595-shift-out-register?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) — микросхемы для увеличения количества цифровых выходов. Она управляется тремя пинами, а на выходе даёт целых восемь.
 
-![Display module](https://github.com/tolikivanov/photo/raw/master/display.jpg)
+![display.jpg](https://github.com/tolikivanov/photo/raw/master/display.jpg)
 
 ### Проблема №3. Габариты
 
 Хоть я и психанул с размером будущих часов, но схема на отдельных модулях – это слишком уж громоздко.
 
-![A lot of Fets](https://github.com/tolikivanov/photo/raw/master/a-lot-of-fets.jpg)
+![a-lot-of-fets.jpg](https://github.com/tolikivanov/photo/raw/master/a-lot-of-fets.jpg)
 
 ### Решение
 
-Гораздо более элегантно будет смотреться модуль OctoFet - готовая сборка из сдвигового регистра и 8-ми полевиков, каждый из которых рассчитан на напряжение до 30 вольт и может пропустить через себя до 3-х ампер.
+Гораздо более элегантно будет смотреться [модуль OctoFet](https://amperka.ru/product/zelo-p-fet?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) - готовая сборка из сдвигового регистра и 8-ми полевиков, каждый из которых рассчитан на напряжение до 30 вольт и может пропустить через себя до 3-х ампер.
 
-![OctoFet](https://github.com/tolikivanov/photo/raw/master/octofet.jpg)
+![octofet.jpg](https://github.com/tolikivanov/photo/raw/master/octofet.jpg)
 
 ## Подключение
 
 Провода от каждого сегмента индикатора подключим к клеммникам выходов Octofet-а.
 
-![Connect digit to Octofet](https://github.com/tolikivanov/photo/raw/master/Connection.png)
+![Connection.png](https://github.com/tolikivanov/photo/raw/master/Connection.png)
 
 Сам Octofet, чтобы не «болтался», закрепим на основании, которое можно вырезать всё из того же картона.
 
-![Connect Octofet to digit](https://github.com/tolikivanov/photo/raw/master/connectOctofet.jpg)
+![connectOctofet.jpg](https://github.com/tolikivanov/photo/raw/master/connectOctofet.jpg)
 
-Подключим блок питания и контроллер Ардуино.
+Подключать модули к Ардуино удобно через [Troyka Shield](https://amperka.ru/product/arduino-troyka-shield?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content). Остается просто соединить всё шлейфами.
 
-![Connect Arduino to Octofet](https://github.com/tolikivanov/photo/raw/master/Arduino-Test-Connection.png)
+![Arduino-Test-Connection.png](https://github.com/tolikivanov/photo/raw/master/Arduino-Test-Connection.png)
 
 ## Прошивка
 
@@ -119,7 +122,7 @@
 
 В зависимости от состояния транзисторов в сборке, на индикаторе будут загораться необходимые сегменты, тем самым отображая цифру.
 
-![Bitmap](https://github.com/tolikivanov/photo/raw/master/bitmap.gif)
+![bitmap.gif](https://github.com/tolikivanov/photo/raw/master/bitmap.gif)
 
 Загрузим тестовый пример для одного индикатора в Ардуино.
 
@@ -175,11 +178,11 @@ void loop()
 ```
 Если всё подключено верно, мы увидим заветные цифры.
 
-![Single gigit show](https://github.com/tolikivanov/photo/raw/master/singleDigit.gif)
+![singleDigit.gif](https://github.com/tolikivanov/photo/raw/master/singleDigit.gif)
 
-Теперь можно соединить все индикаторы в одну цепочку, добавить модуль часов реального времени и разделительный сегмент в виде точки.
+Теперь можно соединить все индикаторы в одну цепочку, добавить [модуль часов реального времени](https://amperka.ru/product/troyka-rtc?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) и разделительный сегмент в виде точки.
 
-![Full Schem](https://github.com/tolikivanov/photo/raw/master/fullSchem.png)
+![fullSchem.png](https://github.com/tolikivanov/photo/raw/master/fullSchem.png)
 
 ### Исходный код
 
@@ -264,9 +267,9 @@ void showDigit (int module, int digit ){
 > Чтобы после прошивки и включения часов время считывалось с модуля RTC -
 > закоментируйте оба метода `clock.set()` и загрузите код снова;
 
-![Full Schem](https://github.com/tolikivanov/photo/raw/master/main.jpg)
+![main.jpg](https://github.com/tolikivanov/photo/raw/master/main.jpg)
 
-Это лишь пример того, как можно сделать подобные индикаторы. Добавьте сюда модуль Bluetooth для настройки и управления, или звуковое оповещение, чтобы превратить часы в будильник. А лучше и то, и другое.
+Это лишь пример того, как можно сделать подобные индикаторы. Добавьте [модуль Bluetooth](https://amperka.ru/product/troyka-ble?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) для настройки и управления, или звуковое оповещение [зумером](https://amperka.ru/product/troyka-buzzer?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтобы превратить часы в будильник. А лучше и то, и другое.
 
 А на этом у меня всё!
 Пока!
