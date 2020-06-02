@@ -71,7 +71,7 @@
 
 ![stub.jpg](https://habrastorage.org/webt/r9/mf/ah/r9mfahojfbpez1a8yjd02j4iyza.jpeg)
 
-Столько резки, клейки и прочего я начинал не выдерживать, поэтому эти кругляшки я резал уже лазерным станком.
+Столько резки, склейки и прочего... Я начинал не выдерживать, поэтому эти кругляшки резал уже лазерным станком.
 
 ![laser-cut.jpg](https://habrastorage.org/webt/wd/7k/qn/wd7kqnalo6zitrqlycjnlq6lrcs.jpeg)
 
