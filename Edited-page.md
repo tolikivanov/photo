@@ -285,7 +285,7 @@ void showDigit (int module, int digit ){
 
 Добавлю сюда [кнопку](https://amperka.ru/product/troyka-button?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) или даже [ИК-приемник](https://amperka.ru/product/troyka-ir-receiver?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтоб дистанционно включать и выключать свет обычным пультом от телека или кондиционера. И будет вообще огонь!
 
-Это лишь пример того, как сделал я. Вы можете сделать по-своему. Добавьте сюда, что угодно! [Модуль Bluetooth](https://amperka.ru/product/troyka-ble?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) для настройки и управления, или звуковое оповещение [зумером](https://amperka.ru/product/troyka-buzzer?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтобы превратить часы в будильник. А лучше и то, и другое.
+Это лишь пример того, как сделал я. Вы можете сделать по-своему. Добавьте сюда, что угодно! [Модуль Bluetooth](https://amperka.ru/product/troyka-ble?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) для настройки и управления, или звуковое оповещение [зуммером](https://amperka.ru/product/troyka-buzzer?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтобы превратить часы в будильник. А лучше и то, и другое.
 
 На этом у меня всё!
 
