@@ -55,7 +55,7 @@
 
 ![Wire-chanel.jpg](https://habrastorage.org/webt/m6/m-/sh/m6m-shyfkmu0wcmx9zdfkim40jy.jpeg)
 
-Рассеиватель для сегмента я сделал в форме цилиндра, который вырезал и свёрнул из обычной офисной бумаги А4 и склеенный клеем-карандашом.
+Рассеиватель для сегмента я сделал в форме цилиндра, который вырезал и свёрнул из обычной офисной бумаги А4 и склеил клеем-карандашом.
 
 ![cylinder.gif](https://habrastorage.org/webt/li/gs/nw/ligsnwndzfemk6bkbc88gazag6c.gif)
 
