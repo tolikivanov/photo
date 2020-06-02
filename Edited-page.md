@@ -108,7 +108,7 @@
 
 ### Решение всех проблем!
 
-С решением подобной задачи лучше всего справится [модуль Octofet](https://amperka.ru/product/zelo-p-fet?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content). Это компактная сборка из сдвигового регистра и 8-ми полевиков, каждый из которых может пропустить через себя пару ампер.
+С подобными задачами лучше всего справится [модуль Octofet](https://amperka.ru/product/zelo-p-fet?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content). Это компактная сборка из сдвигового регистра и 8-ми полевиков, каждый из которых может пропустить через себя пару ампер.
 
 ![octofet.jpg](https://habrastorage.org/webt/uo/8w/un/uo8wunadvyzqx4c1o36yi64_nhe.jpeg)
 
