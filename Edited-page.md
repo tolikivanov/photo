@@ -118,7 +118,7 @@
 
 ![Connection.png](https://habrastorage.org/webt/dy/c1/3n/dyc13nrns22j6d8g6qfjljjaxfw.png)
 
-А сам Octofet, чтобы не «болтался», закрепил на основании, которое тоже вырезал изкартона.
+А сам Octofet, чтобы не «болтался», закрепил на основании, которое тоже вырезал из картона.
 
 ![connectOctofet.jpg](https://habrastorage.org/webt/xj/n3/jz/xjn3jzqhysjfxl70qiud46cjbl0.jpeg)
 
