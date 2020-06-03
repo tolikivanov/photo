@@ -1,35 +1,35 @@
 ![BigClock.jpg](https://habrastorage.org/webt/wa/cf/dh/wacfdhwpudt8xswggtkuapqndsy.jpeg)
 
-Я никогда не хотел себе домой часы. Наручные или в телефоне - их вполне достаточно, чтоб ориентироваться во времени. А вот о какой-нибудь подсветке в комнату, я периодически помышляю. При этом у меня, как и у многих других, стоит лампа на столе и с потолка свисает скушная люстра.
+Я никогда не хотел себе домой часы. Наручные или в телефоне — их вполне достаточно, чтоб ориентироваться во времени. А вот о какой-нибудь подсветке в комнату я периодически помышляю. При этом у меня, как и у многих других, стоит лампа на столе и с потолка свисает скушная люстра.
 
-Сидеть в самоизоляции и полумраке - та ещё перспектива. Так светодиодная лента и картонные упаковки из Икеа на ресайклинг – стали отличным "дано" для светодиодного табло, которое я полюбил.
+Сидеть в самоизоляции и полумраке — та ещё перспектива. Так светодиодная лента и картонные упаковки из Икеа на ресайклинг стали отличным условием «дано» для светодиодного табло, которое я полюбил.
 <cut text="– Какого табло?"/>
 
-Просто светильника - мало. Такой у меня уже есть. Я хотел чтоб новый нес какую-нибудь информацию. Например мог отображать уровень температуры в комнате или что-то ещё...
+Просто светильника — мало. Такой у меня уже есть. Я хотел, чтобы новый нёс какую-нибудь информацию. Например, мог отображать уровень температуры в комнате или что-то ещё...
 
-Часы. Большие часы. Слышу доносящиеся от куда-то голоса, а воображение начинает выстраивать всяческие образы.
+Часы. Большие часы. Слышу доносящиеся откуда-то голоса, а воображение начинает выстраивать всяческие образы.
 
-Самым простым и понятным мне показался вариант в виде семисегментных индикаторов. А что? Сделаю каркас из гофрокартона, нарежу отрезков светодиодной ленты и закреплю их на нем в форме восьмерки. Звучит не сложно.
+Самым простым и понятным мне показался вариант в виде семисегментных индикаторов. А что? Сделаю каркас из гофрокартона, нарежу отрезков светодиодной ленты и закреплю их на нём в форме восьмёрки. Звучит несложно.
 
 ## Что для этого понадобится
 
-Есть 100 вариантов, где можно достать железо для этого проекта. Никаких особых, редких или проприетарных модулей в нём нет; главное — концепция. Я, однако, работаю в Амперке и поэтому взял всё необходимое в конторе. Чего и вам желаю.
+Есть 100 вариантов, где можно достать железо для этого проекта. Никаких особых, редких или проприетарных модулей в нём нет; главное — концепция. Я, однако, работаю в Амперке, поэтому взял всё необходимое в конторе. Чего и вам желаю.
 Итак, мой комплект: 
 
 ### Материалы:
--   [Светодиодная лента, 12 В](https://amperka.ru/product/white-led-strip-sealed?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Светодиодная лента 12 В](https://amperka.ru/product/white-led-strip-sealed?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Контроллер Ардуино](https://amperka.ru/product/arduino-uno?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
--   4 х [Octofet (сборка из 8-ми MOSFET транзисторов)](https://amperka.ru/product/zelo-p-fet?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   4× [Octofet (сборка из 8-ми MOSFET транзисторов)](https://amperka.ru/product/zelo-p-fet?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Модуль часов реального времени](https://amperka.ru/product/troyka-rtc?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Блок питания 12В](https://amperka.ru/product/power-supply-adapter-robiton-tn2000s?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   Картон;
--   Листы бумаги 80 г/м2;
--   Провода;
+-   Листы бумаги 80 г/м²;
+-   Провода.
 
 ### Инструменты:
 -   [Паяльник](https://amperka.ru/product/soldering-iron-goot-30w?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Кусачки](https://amperka.ru/product/side-cutting-pliers?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
--   [Набор отверток](https://amperka.ru/product/screw-kit?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
+-   [Набор отвёрток](https://amperka.ru/product/screw-kit?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Олово](https://amperka.ru/product/solder-08mm-small?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Флюс](https://amperka.ru/product/flux-lti120?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
 -   [Провод USB](https://amperka.ru/product/usb-cable?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content);
@@ -37,7 +37,7 @@
 -   Канцелярский нож;
 -   Ножницы;
 -   Линейка;
--   Карандаш;
+-   Карандаш.
 
 ## Как собрать
 
@@ -45,17 +45,17 @@
 
 ![ninja-cut.gif](https://habrastorage.org/webt/lk/xh/3c/lkxh3cji5ebvbkvegmks9qigmfg.gif)
 
-Подсвечивать каждый сегмент будет 10 сантиметровый отрезок светодиодной ленты, к которому я припаял пару проводов.
+Подсвечивать каждый сегмент будет 10-сантиметровый отрезок светодиодной ленты, к которому я припаял пару проводов.
 
 ![led-wire.jpg](https://habrastorage.org/webt/9s/e3/2m/9se32mf_gn-wrurkmk8lg1efp2m.jpeg)
 
-На одну из сторон индикатора (теперь она будет тыльной) наклеил дополнительные "прямоугольнички", вырезанные из того же картона вдоль рёбер жёсткости. Сквозь эти рёбра я пущу провода от сегментов.
+На одну из сторон индикатора (теперь она будет тыльной) наклеил дополнительные «прямоугольнички», вырезанные из того же картона вдоль рёбер жёсткости. Сквозь эти рёбра я пущу провода от сегментов.
 
 Сейчас мне это кажется простым решением, а тогда я уже начинал аккуратненько замахиваться микроскопом по гвоздю, чтобы спрятать бухту торчащих проводов. 
 
 ![Wire-chanel.jpg](https://habrastorage.org/webt/m6/m-/sh/m6m-shyfkmu0wcmx9zdfkim40jy.jpeg)
 
-Рассеиватель для сегмента я сделал в форме цилиндра, который вырезал и свёрнул из обычной офисной бумаги А4 и склеил клеем-карандашом.
+Рассеиватель для сегмента я сделал в форме цилиндра, который вырезал и свернул из обычной офисной бумаги А4 и склеил клеем-карандашом.
 
 ![cylinder.gif](https://habrastorage.org/webt/li/gs/nw/ligsnwndzfemk6bkbc88gazag6c.gif)
 
@@ -71,38 +71,38 @@
 
 ![stub.jpg](https://habrastorage.org/webt/r9/mf/ah/r9mfahojfbpez1a8yjd02j4iyza.jpeg)
 
-Столько резки, склейки и прочего... Я начинал не выдерживать, поэтому эти кругляшки резал уже лазерным станком.
+Столько резки, склейки и прочего... Я начинал не выдерживать, поэтому резал эти кругляшки уже лазерным станком.
 
 ![laser-cut.jpg](https://habrastorage.org/webt/wd/7k/qn/wd7kqnalo6zitrqlycjnlq6lrcs.jpeg)
 
-Иначе стоит запастись терпением, вырезая такое количество деталей канцелярским ножем.
+Иначе стоит запастись терпением, вырезая такое количество деталей канцелярским ножом.
 
 ## Управление
 
-Когда индикатор собран - самое время подумать, как им рулить.
-И тут меня поджидало несколько "сюрпризов".
+Когда индикатор собран — самое время подумать, как им рулить.
+И тут меня поджидало несколько «сюрпризов».
 
 ### Сюрприз первый. Ток
 
 [Привычными индикаторами](https://amperka.ru/product/7-segment-led?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), каждый сегмент которых потребляет всего 20-30 мА, можно управлять напрямую контроллером. Например, с входов-выходов популярной Arduino Uno можно снять до 40 мА.
 
-Каждый из сегментов моего индикатора потребляет в два раза больше допустимого тока. Для управления ими, дополнительно придется использовать [транзисторы](https://amperka.ru/product/troyka-mosfet-p-channel?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) или [реле](https://amperka.ru/product/troyka-mini-relay?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), способные пропустить через себя такой ток.
+Каждый из сегментов моего индикатора потребляет в два раза больше допустимого тока Uno. Для управления ими придётся дополнительно использовать [транзисторы](https://amperka.ru/product/troyka-mosfet-p-channel?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) или [реле](https://amperka.ru/product/troyka-mini-relay?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), способные пропустить через себя такой ток.
 
 ![commutation.jpg](https://habrastorage.org/webt/4i/zb/fs/4izbfsfaolbkat5h4lkj2yopvdk.jpeg)
 
-Реле – шумно и громоздко для такой задачи, а вот силовые ключи на MOSFET транзисторах – кажется, то, что нужно.
+Реле — шумно и громоздко для такой задачи, а вот силовые ключи на MOSFET-транзисторах — кажется, то, что нужно.
 
 ### Сюрприз второй. Контакты
 
-Чтобы управлять одним индикатором понадобится 7 выходов микроконтроллера. Четыре индикатора и разделитель – это 29, а у Ардуино Уно выходов всего 20.
+Чтобы управлять одним индикатором, понадобится 7 выходов микроконтроллера. Четыре индикатора и разделитель — это 29, а у Ардуино Уно выходов всего 20.
 
-В [готовых индикаторных сборках](https://amperka.ru/product/troyka-quad-display?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) используют [выходные сдвиговые регистры](https://amperka.ru/product/74hc595-shift-out-register?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) — микросхемы для увеличения количества цифровых выходов. Она управляется тремя пинами, а на выходе даёт целых восемь.
+В [готовых индикаторных сборках](https://amperka.ru/product/troyka-quad-display?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) используют [выходные сдвиговые регистры](https://amperka.ru/product/74hc595-shift-out-register?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) — микросхемы для увеличения количества цифровых выходов. Они управляются тремя пинами, а на выходе дают целых восемь.
 
 ![display.jpg](https://habrastorage.org/webt/1x/sz/z_/1xszz_6vk6llwfo0_xuar63dx4c.jpeg)
 
 ### Третий сюрприз. Габариты
 
-Но собрав схему из восьми силовых ключей и сдвигового регистра становится очевидно - такое управление много радости не принесет.
+Собрав схему из восьми силовых ключей и сдвигового регистра, становится очевидно — такое управление много радости не принесёт.
 
 ![a-lot-of-fets.jpg](https://habrastorage.org/webt/un/yl/bf/unylbfzrmtgtymy76lsgrcnnmsi.jpeg)
 
@@ -114,26 +114,26 @@
 
 ## Подключение
 
-Провода от каждого сегмента индикатора я подключил к клеммникам выходов Octofet-а.
+Провода от каждого сегмента индикатора я подключил к клеммникам выходов Octofet’а.
 
 ![Connection.png](https://habrastorage.org/webt/dy/c1/3n/dyc13nrns22j6d8g6qfjljjaxfw.png)
 
-А сам Octofet, чтобы не «болтался», закрепил на основании, которое тоже вырезал из картона.
+А сам Octofet, чтобы не болтался, закрепил на основании, которое тоже вырезал из картона.
 
 ![connectOctofet.jpg](https://habrastorage.org/webt/xj/n3/jz/xjn3jzqhysjfxl70qiud46cjbl0.jpeg)
 
-Подключать модули к Ардуино я буду через [Troyka Shield](https://amperka.ru/product/arduino-troyka-shield?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content). Остается просто соединить всё шлейфами. 
+Подключать модули к Ардуино я буду через [Troyka Shield](https://amperka.ru/product/arduino-troyka-shield?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content). Остаётся просто соединить всё шлейфами. 
 
 ![Arduino-Test-Connection.png](https://habrastorage.org/webt/xs/dk/r9/xsdkr9o9kzkoleut8sv6ipoa13q.png)
 
-Теперь зависимости от состояния транзисторов в сборке, на индикаторе должны будут загораться необходимые сегменты, тем самым отображая цифру.
+Теперь, в зависимости от состояния транзисторов в сборке, на индикаторе должны будут загораться необходимые сегменты, тем самым отображая цифру.
 
 ![bitmap.gif](https://habrastorage.org/webt/g7/hi/fg/g7hifgxzfkxbmhb91je0sl-ceyw.gif)
 
 ## Прошивка
 
 Программировать контроллер буду через [Arduino IDE](http://wiki.amperka.ru/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-arduino-ide).
-Для работы с Octofet-ом и часами реального времени нужно будет дополнительно скачать и установить пару библиотек.
+Для работы с Octofet’ом и часами реального времени нужно будет дополнительно скачать и установить пару библиотек.
   - [Библиотека OctoFet](https://github.com/amperka/AmperkaFet)
   - [Библиотека TroykaRTC](https://github.com/amperka/TroykaRTC)
   - [Как устанавливать библиотеки в Arduino IDE](http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5:%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8#%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8)
@@ -181,7 +181,7 @@ void loop()
   int mask = numberSegments[number];
   // для каждого из 7 сегментов индикатора...
   for (int i = 0; i < SEGMENT_COUNT; ++i) {
-    // ...определяем: должен ли он быть включён. Для этого
+    // ...определяем, должен ли он быть включён. Для этого
     // считываем бит (англ. read bit), соответствующий текущему
     // сегменту «i». Истина — он установлен (1), ложь — нет (0)
     boolean enableSegment = bitRead(mask, i);
@@ -200,7 +200,7 @@ void loop()
 
 ### Исходный код
 
-Осталось научить получившийся четырехразрядный индикатор показывать текущее время. 
+Осталось научить получившийся четырёхразрядный индикатор показывать текущее время. 
 
 ```cpp
 // библиотека для работы с модулями по интерфейсу SPI
@@ -266,7 +266,7 @@ void showDigit (int module, int digit ){
   int mask = numberSegments[digit];
   // для каждого из 7 сегментов индикатора...
   for (int i = 0; i < 8; ++i) {
-    // ...определяем: должен ли он быть включён. Для этого
+    // ...определяем, должен ли он быть включён. Для этого
     // считываем бит (англ. read bit), соответствующий текущему
     // сегменту «i». Истина — он установлен (1), ложь — нет (0)
     boolean enableSegment = bitRead(mask, i);
@@ -276,16 +276,16 @@ void showDigit (int module, int digit ){
 }
 ```
 
-> Чтобы после прошивки и включения часов время считывалось с модуля RTC -
+> Чтобы после прошивки и включения часов время считывалось с модуля RTC,
 > закомментируйте оба метода `clock.set()` и загрузите код снова;
 
 То, что получилось, мне очень нравится. Зацените сами!
 
 ![i-did-it.jpg](https://habrastorage.org/webt/e7/tg/xi/e7tgxip1b7ndrzo5ccseo7dcllm.jpeg)
 
-Добавлю сюда [кнопку](https://amperka.ru/product/troyka-button?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) или даже [ИК-приемник](https://amperka.ru/product/troyka-ir-receiver?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтоб дистанционно включать и выключать свет обычным пультом от телека или кондиционера. И будет вообще огонь!
+Добавлю сюда [кнопку](https://amperka.ru/product/troyka-button?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) или даже [ИК-приемник](https://amperka.ru/product/troyka-ir-receiver?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтобы дистанционно включать и выключать свет обычным пультом от телека или кондиционера. И будет вообще огонь!
 
-Это лишь пример того, как сделал я. Вы можете сделать по-своему. Добавьте сюда, что угодно! [Модуль Bluetooth](https://amperka.ru/product/troyka-ble?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) для настройки и управления, или звуковое оповещение [зуммером](https://amperka.ru/product/troyka-buzzer?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтобы превратить часы в будильник. А лучше и то, и другое.
+Это лишь пример того, как поступил я. Вы можете сделать девайс по-своему. Добавьте сюда, что угодно! [Модуль Bluetooth](https://amperka.ru/product/troyka-ble?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content) для настройки и управления, или звуковое оповещение [зуммером](https://amperka.ru/product/troyka-buzzer?utm_source=habr.ru&utm_campaign=post-2020-06-02-paper8&utm_medium=content), чтобы превратить часы в будильник. А лучше и то, и другое.
 
 На этом у меня всё!
 
